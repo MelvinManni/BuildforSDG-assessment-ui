@@ -101,15 +101,14 @@ export default function InputUi() {
       <div className='blue-top-bg'>
       </div>
       <div className='estimator-holder'>
-        <div className='estimate-card one'></div>
-        <div className='estimate-card two'></div>
-        <div className='estimate-card main'>
+        <div className='estimate-card eone'></div>
+        <div className='estimate-card etwo'></div>
+        <div className='estimate-card emain'>
           <div className='header'>
             <img
               src='.\assets\images\coronavirus.png'
-              width='70px'
               alt='coronavirus'
-              className='corona'
+              className='coronavirus'
             />
             <p className='header__main'>
               <span className='bigger'>COVID-19</span> Infections Estimator
