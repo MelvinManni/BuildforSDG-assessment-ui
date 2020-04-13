@@ -98,15 +98,14 @@ export default function InputUi() {
 
   return (
     <div>
-      <div className='blue-top-bg'>
-      </div>
+      <div className='blue-top-bg'></div>
       <div className='estimator-holder'>
         <div className='estimate-card eone'></div>
         <div className='estimate-card etwo'></div>
         <div className='estimate-card emain'>
           <div className='header'>
             <img
-              src='.\assets\images\coronavirus.png'
+              src='.\assets\images\coronavirus.webp'
               alt='coronavirus'
               className='coronavirus'
             />
