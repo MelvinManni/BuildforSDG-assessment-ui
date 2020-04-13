@@ -13,11 +13,8 @@ body {
   width: 10px;
 }
 .blue-top-bg {
-  display: flex;
-  justify-content: center;
   background-color: #012bc4;
-  padding-top: 30px;
-  height: 180px;
+  height: 100px;
   width: 100%;
 }
 .estimate-card {
@@ -30,10 +27,13 @@ body {
 .estimate-card.one,
 .estimate-card.two {
   position: relative;
-  width: 85%;
   top: -50px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0.315);
+}
+
+.estimate-card.one{
+    width: 85%;
 }
 .estimate-card.two {
   max-width: 90%;

@@ -99,14 +99,6 @@ export default function InputUi() {
   return (
     <div>
       <div className='blue-top-bg'>
-        <div className="img">
-          <img
-            src='.\assets\images\logo.png'
-            width='80px'
-            alt='logo'
-            className='logo'
-          />
-        </div>
       </div>
       <div className='estimator-holder'>
         <div className='estimate-card one'></div>
@@ -114,8 +106,8 @@ export default function InputUi() {
         <div className='estimate-card main'>
           <div className='header'>
             <img
-              src='.\assets\images\coronavirus_PNG9.png'
-              width='50px'
+              src='.\assets\images\coronavirus.png'
+              width='70px'
               alt='coronavirus'
               className='corona'
             />
