@@ -64,7 +64,6 @@ export default function InputUi() {
     });
   }
 
-
   function estimateSubmit(event) {
     let input1 = document.getElementById('totalHospitalBeds').value;
     let input2 = document.getElementById('population').value;
@@ -72,19 +71,17 @@ export default function InputUi() {
     let input4 = document.getElementById('timeToElapse').value;
     let load = document.getElementById('loading');
     event.preventDefault();
-    if (input1 === '' || input2 === '' || input3 === '' || input4 === '' ){
+    if (input1 === '' || input2 === '' || input3 === '' || input4 === '') {
       document.getElementById('warning').style.display = 'block';
       setTimeout(() => {
-        document.getElementById('warning').style.display = 'none'
+        document.getElementById('warning').style.display = 'none';
       }, 2400);
-
     } else {
       load.style.display = 'block';
       setTimeout(() => {
         document.getElementById('output').style.display = 'block';
         load.style.display = 'none';
       }, 1500);
-      
     }
   }
 
@@ -101,12 +98,27 @@ export default function InputUi() {
 
   return (
     <div>
-      <div className='blue-top-bg'></div>
+      <div className='blue-top-bg'>
+        <div className="img">
+          <img
+            src='.\assets\images\logo.png'
+            width='80px'
+            alt='logo'
+            className='logo'
+          />
+        </div>
+      </div>
       <div className='estimator-holder'>
         <div className='estimate-card one'></div>
         <div className='estimate-card two'></div>
         <div className='estimate-card main'>
           <div className='header'>
+            <img
+              src='.\assets\images\coronavirus_PNG9.png'
+              width='50px'
+              alt='coronavirus'
+              className='corona'
+            />
             <p className='header__main'>
               <span className='bigger'>COVID-19</span> Infections Estimator
             </p>
@@ -174,7 +186,6 @@ export default function InputUi() {
                   </div>
                 </div>
 
-
                 <div className='periodType'>
                   <label htmlFor='periodType'>Period Type</label>
                   <select
@@ -207,12 +218,15 @@ export default function InputUi() {
                 </div>
               </div>
               <div>
-
-                <div className="warning">
-                  <span id="warning">Please fill all the input fields! </span>
+                <div className='warning'>
+                  <span id='warning'>Please fill all the input fields! </span>
                 </div>
 
-                <button onClick={estimateSubmit} name='data-go-estimate' type='submit'>
+                <button
+                  onClick={estimateSubmit}
+                  name='data-go-estimate'
+                  type='submit'
+                >
                   Estimate
                   <span id='loading'>
                     <i className='fas fa-spinner'></i>

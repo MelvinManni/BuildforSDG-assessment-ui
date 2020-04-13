@@ -1,9 +1,9 @@
 import React from 'react';
-import EstimatorUi from './estimatorUI/estimatorUi';
+import InputUi from './input/inputUi';
 
 function App() {
   return (
-    <EstimatorUi />
+    <InputUi />
   );
 }
 
