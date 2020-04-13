@@ -104,11 +104,13 @@ export default function InputUi() {
         <div className='estimate-card etwo'></div>
         <div className='estimate-card emain'>
           <div className='header'>
-            <img
-              src='.\assets\images\coronavirus.webp'
-              alt='coronavirus'
-              className='coronavirus'
-            />
+            <div className="img">
+              <img
+                src='.\assets\images\coronavirus.webp'
+                alt='coronavirus'
+                className='coronavirus'
+              />
+            </div>
             <p className='header__main'>
               <span className='bigger'>COVID-19</span> Infections Estimator
             </p>

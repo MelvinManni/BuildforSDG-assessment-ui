@@ -52,11 +52,13 @@ button:focus {
   font-size: 20px;
 }
 .header__main .bigger {
+  font-family: 'Cormorant Garamond', serif;
   color: #012bc4;
   font-weight: 700;
   font-size: 25px;
 }
 .header__sub {
+  font-family: 'Cormorant Garamond', serif;
   font-size: 11px;
 }
 .description__text {
@@ -65,9 +67,13 @@ button:focus {
   font-weight: 300;
 }
 
+.img {
+  min-width: 50px;
+  max-width: 70px;
+  margin: auto;
+}
 .coronavirus {
-    min-width: 50px;
-    max-width: 70px;
+  width: 100%;
 }
 form {
   margin: 0 auto;
