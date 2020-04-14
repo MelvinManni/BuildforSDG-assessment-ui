@@ -239,7 +239,6 @@ export default function InputUi() {
                     id='periodType'
                     data-period-type
                   >
-                    <option disabled>Select Period Type</option>
                     <option value='days'>
                       Days
                     </option>
