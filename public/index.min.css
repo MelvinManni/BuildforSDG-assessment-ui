@@ -128,6 +128,11 @@ label {
   visibility: hidden;
 }
 
+.close{
+  width: 35px;
+  color: #fff;
+}
+
 .icon i svg{
   width: 22px;
 }
