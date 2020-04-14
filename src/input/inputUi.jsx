@@ -239,9 +239,9 @@ export default function InputUi() {
                     data-period-type
                   >
                     <option disabled>Select Period Type</option>
-                    <option value='days'>Days</option>
-                    <option value='weeks'>Weeks</option>
-                    <option value='months'>Months</option>
+                    <option data-period-type value='days'>Days</option>
+                    <option data-period-type value='weeks'>Weeks</option>
+                    <option  data-period-type value='months'>Months</option>
                   </select>
                 </div>
 
