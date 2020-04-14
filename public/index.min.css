@@ -124,6 +124,10 @@ label {
   transition: 0.6s ease all;
 }
 
+.hide{
+  visibility: hidden;
+}
+
 .icon i svg{
   width: 22px;
 }

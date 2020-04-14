@@ -358,6 +358,8 @@ export default function InputUi() {
           </div>
         </div>
       </div>
+
+      <input className='hide' type="text" data-period-type/>
     </div>
   );
 }
