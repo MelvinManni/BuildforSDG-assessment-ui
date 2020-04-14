@@ -132,6 +132,7 @@ export default function InputUi() {
                     onChange={estimateChange}
                     type='number'
                     name='data-total-hospital-beds'
+                    data-total-hospital-beds
                     id='totalHospitalBeds'
                     required
                     min='1'
@@ -165,6 +166,7 @@ export default function InputUi() {
                     onChange={estimateChange}
                     type='number'
                     name='data-population'
+                    data-population
                     id='population'
                     required
                     min='1'
@@ -198,6 +200,7 @@ export default function InputUi() {
                     onChange={estimateChange}
                     type='number'
                     name='data-reported-cases'
+                    data-reported-cases
                     id='reportedCases'
                     required
                     min='1'
@@ -248,6 +251,7 @@ export default function InputUi() {
                     id='timeToElapse'
                     required
                     min='1'
+                    data-time-to-elapse
                     value={data.timeToElapse}
                   />
                   <label htmlFor='timeToElapse'>time to elapse</label>
@@ -281,6 +285,7 @@ export default function InputUi() {
                 <button
                   onClick={estimateSubmit}
                   name='data-go-estimate'
+                  data-go-estimate
                   type='submit'
                 >
                   Estimate
