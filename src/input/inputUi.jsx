@@ -125,7 +125,7 @@ export default function InputUi() {
           </div>
 
           <div className='input'>
-            <form>
+            <form id='estimatorForm'>
               <div>
                 <div className='totalHospitalBeds'>
                   <input
@@ -233,9 +233,10 @@ export default function InputUi() {
                   <label htmlFor='periodType'>Period Type</label>
                   <select
                     name='data-period-type'
-                    data-period-type
+                    form='estimatorForm'
                     onChange={estimateChange}
                     id='periodType'
+                    data-period-type
                   >
                     <option disabled>Select Period Type</option>
                     <option value='days'>Days</option>
