@@ -233,6 +233,7 @@ export default function InputUi() {
                   <label htmlFor='periodType'>Period Type</label>
                   <select
                     name='data-period-type'
+                    data-period-type
                     onChange={estimateChange}
                     id='periodType'
                   >
