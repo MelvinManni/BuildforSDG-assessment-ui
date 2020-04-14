@@ -51,6 +51,12 @@ button:focus {
   padding-bottom: 35px;
   font-size: 20px;
 }
+
+.fa-spinner{
+  width: 17px;
+  color: white;
+}
+
 .header__main .bigger {
   font-family: 'Cormorant Garamond', serif;
   color: #012bc4;
@@ -116,6 +122,10 @@ label {
   top: -38px;
   right: 25px;
   transition: 0.6s ease all;
+}
+
+.icon i svg{
+  width: 22px;
 }
 input:focus ~ label,
 input:valid ~ label {
